@@ -1,10 +1,10 @@
-import { Physics } from "@react-three/cannon"
-import { Sky } from "@react-three/drei"
-import { Canvas } from "@react-three/fiber"
-import { Cubes } from "./components/cubes"
 import { FPV } from "./components/fpv"
+import { Sky } from "@react-three/drei"
+import { Cubes } from "./components/cubes"
+import { Canvas } from "@react-three/fiber"
 import { Ground } from "./components/ground"
 import { Player } from "./components/player"
+import { Physics } from "@react-three/cannon"
 
 function App() {
   return (
