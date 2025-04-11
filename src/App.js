@@ -9,7 +9,7 @@ import { Physics } from "@react-three/cannon"
 function App() {
   return (
     <>
-      <Canvas>
+      <Canvas gl={{ antialias: false, powerPreference: "high-performance" }} dpr={[1, 1.5]}>
         <Sky sunPosition={[100, 100, 20]} />
         <ambientLight intensity={0.5} />
         <FPV />

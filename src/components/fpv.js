@@ -3,5 +3,5 @@ import { PointerLockControls } from "@react-three/drei"
 
 export const FPV = () => {
   const { camera, gl } = useThree()
-  return (<PointerLockControls args={[camera, gl.domElement]} />)
+  return (<PointerLockControls args={[camera, gl.domElement]} makeDefault={true} />)
 }
